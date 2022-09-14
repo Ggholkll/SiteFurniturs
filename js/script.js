@@ -55,7 +55,8 @@ const elmentLIstMenu = document.querySelectorAll('.menu-footer__list')
       elementTitleMenu[i].nextElementSibling.classList.add('__active') ; 
       elementTitleMenu[i].addEventListener('click' , function () {
         elementTitleMenu[i].nextElementSibling.classList.remove('__active') ; 
-          elementTitleMenu[i].nextElementSibling.classList.toggle('__activess') ; 
+          elementTitleMenu[i].nextElementSibling.classList.toggle('__activess') ;
+            elementTitleMenu[i].classList.toggle('__active') ;
           if (!elementTitleMenu[i].nextElementSibling.classList.contains('__activess')) {
             setTimeout(function () {
               elementTitleMenu[i].nextElementSibling.classList.add('__active') ; 
@@ -273,7 +274,7 @@ function functionUpdateCart(productsButton , productsID , productsAdd = true ) {
 new Swiper ('.slider-main__body' , {
   observer: true , 
   observeParents: true , 
-  slidesPerView: 1.3,
+  slidesPerView: 1,
   centeredSlides: true , 
   spaceBetween: 32 , 
   watchOverflow: true , 

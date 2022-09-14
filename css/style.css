@@ -430,7 +430,19 @@ body {
   font-size: 20px;
   background-color: #fff;
   line-height: 180%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-family: 'PT Sans', sans-serif; }
+  ._footer-title span {
+    padding: 0px 10px;
+    display: block;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+    @media (min-width: 767px) {
+      ._footer-title span {
+        display: none; } }
 
 .footer {
   margin: 50px 0px 0px 0px;
@@ -522,6 +534,14 @@ body {
   .menu-footer__title {
     cursor: default;
     margin: 0px 0px 20px 0px; }
+    .menu-footer__title span {
+      -webkit-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+    .menu-footer__title.__active span {
+      -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
   @media (max-width: 767px) {
     .menu-footer__list {
       -webkit-transition: all 0.3s ease 0s;
@@ -535,7 +555,11 @@ body {
       .menu-footer__list.__activess {
         -webkit-transform: translate(0px, 0px) scale(1, 1);
         -ms-transform: translate(0px, 0px) scale(1, 1);
-        transform: translate(0px, 0px) scale(1, 1); } }
+        transform: translate(0px, 0px) scale(1, 1); }
+        .menu-footer__list.__activess .menu-footer__title {
+          -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); } }
   .menu-footer__list li:not(:last-child) {
     margin: 0px 0px 15px 0px; }
   .menu-footer__link {
@@ -727,7 +751,8 @@ body {
 .slider-main__body {
   border: 1px solid #fff;
   background-color: #ffff;
-  border-radius: 10px; }
+  border-radius: 10px;
+  max-height: 400px; }
 
 .swiper-pagination-bullet {
   cursor: pointer;
@@ -825,6 +850,7 @@ body {
   position: absolute;
   min-width: 295px;
   max-height: 300px;
+  max-width: 295px;
   overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -843,7 +869,7 @@ body {
     .slider-main__content {
       position: absolute;
       right: 20px;
-      bottom: 20px; } }
+      bottom: 100px; } }
 
 .slider-main__title {
   font-size: 20px;
