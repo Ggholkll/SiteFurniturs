@@ -1,0 +1,75 @@
+{
+	"products": [
+		{
+			"id": 5,
+			"url": "#",
+			"title": "Grifo",
+			"text": "Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Illo provident quae ipsam delectus doloribus ad nam. Velit laborum molestias, odio placeat, saepe eveniet minus ducimus totam veniam suscipit, delectus numquam? ",
+			"labels": "",
+			"button": "Buy" , 
+			"image": "https://mebelgroup.com/upload/iblock/81c/81cda2ef21371cf4f774dbdb0930eb7f.jpg",
+			"price": "2.500",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 6,
+			"url": "#",
+			"title": "Muggo",
+			"button": "Buy" , 
+			"text": "Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Illo provident quae ipsam delectus doloribus ad nam. Velit laborum molestias, odio placeat, saepe eveniet minus ducimus totam veniam suscipit, delectus numquam? ",
+			"labels": [
+				{
+					"type": "sale",
+					"value": "-50%"
+				},
+				{
+					"type": "new",
+					"value": "New"
+				}
+			],
+			"image": "https://www.mebelminsk.by/assets/images/company/zhemchuzhina_kuhni/1/Nolan.jpg",
+			"price": "2.000",
+			"priceOld": "2.500",
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 7,
+			"url": "#",
+			"title": "Pingky",
+			"text": "Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Illo provident quae ipsam delectus doloribus ad nam. Velit laborum molestias, odio placeat, saepe eveniet minus ducimus totam veniam suscipit, delectus numquam? ",
+			"labels": [
+				{
+					"type": "sale",
+					"value": "-50%"
+				}
+			],
+			"image": "https://kupeural.ru/upload/resize_cache/iblock/dd7/800_600_1/dd7af0b9266730ff3722bb9c69b3369e.jpg",
+			"price": "7.000",
+			"priceOld": "14.500",
+			"button": "Buy" , 
+			"shareUrl": "",
+			"likeUrl": ""
+		},
+		{
+			"id": 8,
+			"url": "#",
+			"title": "Potty",
+			"button": "Buy" , 
+			"text": "Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Illo provident quae ipsam delectus doloribus ad nam. Velit laborum molestias, odio placeat, saepe eveniet minus ducimus totam veniam suscipit, delectus numquam? ",
+			"labels": [
+				{
+					"type": "new",
+					"value": "New"
+				}
+			],
+			"image": "https://ae04.alicdn.com/kf/H10925ac8377d47b796a6926c597f3c33v/-.jpg",
+			"price": "4.500",
+			"priceOld": "",
+			"shareUrl": "",
+			"likeUrl": ""
+		}
+	]
+}
